@@ -1,4 +1,4 @@
-package com.farm.javaBesee.reflection;
+package com.farm.javaBese.reflection;
 
 import lombok.SneakyThrows;
 
@@ -75,7 +75,7 @@ public class ReflectionTest {
         /**
          * 编译阶段获取Class，多用于配置文件，读取类全路径，加载类
          */
-        Class<?> employee = Class.forName("com.farm.javaBesee.reflection.Employee");
+        Class<?> employee = Class.forName("com.farm.javaBese.reflection.Employee");
 
         System.out.println(employee);
         // 获取运行类型
@@ -120,7 +120,7 @@ public class ReflectionTest {
          */
         Employee employee4 = new Employee();
         ClassLoader classLoader = employee4.getClass().getClassLoader();
-        Class<?> aClass2 = classLoader.loadClass("com.farm.javaBesee.reflection.Employee2");
+        Class<?> aClass2 = classLoader.loadClass("com.farm.javaBese.reflection.Employee2");
         System.out.println(aClass2);
 
         // 基本数据类型
