@@ -20,7 +20,8 @@
 
 
     <modules>
-        <module>01-fram-spring</module>
+        <module>01-spring-application-load</module>
+        <module>02-spring-security-01</module>
     </modules>
 
 
